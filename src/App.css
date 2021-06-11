@@ -1,0 +1,57 @@
+.App{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: teal;
+  color: white;
+  width: 720px;
+  min-height: 300px; 
+  background: bisque;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px
+}
+
+.todo{
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid bisque;
+  color: #111;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.App.column{
+  width: 30%;
+}
+
+.droppable-col{
+  width: 100%;
+  background-color:grey;
+  padding:10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+
+
+}
+.item{
+  margin-bottom: 10px;
+  background-color: grey;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+
+.item.dragging{
+  background-color: coral;
+}
+
+
