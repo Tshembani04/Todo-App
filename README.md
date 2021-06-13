@@ -3,6 +3,10 @@
 # left the task column. Current is on the right column. Dragging back to the
 # left should take the state to not complete (bonus)
 
+### Please add this dependacy, its a drag and drop library 
+###
+### yarn add react-beautiful-dnd
+
 
 # Getting Started with Create React App
 
