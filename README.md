@@ -5,7 +5,7 @@
 
 ### Please add this dependacy, its a drag and drop library 
 ###
-### yarn add react-beautiful-dnd
+### `yarn add react-beautiful-dnd`
 
 
 # Getting Started with Create React App
